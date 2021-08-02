@@ -38,7 +38,8 @@ public class PersonaController {
 		personaService.save(persona);
 		return "redirect:/";
 	}
-	
+
+	@GetMapping("/delete/{id}")
 	public String delete(@PathVariable("id") Long id, Model model) {
 		personaService.delete(id);
 		return "redirect:/";
