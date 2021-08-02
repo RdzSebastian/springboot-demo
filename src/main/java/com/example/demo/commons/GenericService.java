@@ -1,4 +1,4 @@
-package commons;
+package com.example.demo.commons;
 
 import java.io.Serializable;
 import java.util.List;
